@@ -1,0 +1,87 @@
+.bg_autho
+{
+    background-image: url(../Assets/bg-term-condition.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.autho_title
+{
+    color: white;
+    margin-left: 4.5rem;
+}
+
+.autho_para
+{
+    margin-top: 1%;
+    color: white;
+    padding: 0px 4%;
+}
+
+.info_autho
+{
+    padding: 1rem 1rem;
+}
+
+.info_autho span
+{
+    color: #94999b;
+}
+
+.info_autho p,h6
+{
+    margin: 0px;
+    padding: 0px 1%;
+}
+
+/* This part fo Contact page............................ */
+.contact_box_one
+{
+    border: 3px solid #ececec;
+    border-radius: 18px;
+    height: 27rem;
+}
+
+.contact_box_two
+{
+    border: 3px solid #ececec;
+    border-radius: 18px;
+}
+
+.form_title label
+{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact_icon i
+{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 65px;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: #1174ec;
+    color: white;
+}
+
+.address_info span
+{
+    color: #94999b;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.address_info a
+{
+    color: #94999b;
+    text-decoration: none;
+}
+
+.address_info a:hover
+{
+    color: #1374e9; 
+    transition: ease 1s;
+}

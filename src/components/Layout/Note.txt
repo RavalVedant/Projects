@@ -1,0 +1,28 @@
+  <nav className={`navbar navbar-expand-lg bg_nabvar shadow-lg sticky-top`}>
+            <div className="container-fluid d-flex justify-content-around">
+                <Link className="navbar-brand" to="/">
+                    <img src={Logo} alt="Logo" onClick={handleClick} />
+                </Link>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mb-2 mb-lg-0 me-auto">
+                        <li className="nav-item links">
+                            <NavLink to="/" className="nav-link" onClick={handleClick}>HOME</NavLink>
+                        </li>
+                        <li className="nav-item links">
+                            <NavLink to="/news" className="nav-link">NEWS</NavLink>
+                        </li>
+                        <li className="nav-item links">
+                            <NavLink to="/blogs" className="nav-link">BLOGS</NavLink>
+                        </li>
+                    </ul>
+                    <div className="d-flex align-items-center buttons px-3">
+                        <SwitchToggle />
+                        <NavLink to="/scription-plan" className="btn btn-primary mx-2" activeClassName="active"><i className="fa-crown fa-solid"></i> Subscribe</NavLink>
+                        <NavLink to="/login" className="btn btn-primary" activeClassName="active"><i className="fa-solid fa-user"></i> Login</NavLink>
+                    </div>
+                </div>
+            </div>
+        </nav>

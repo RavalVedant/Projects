@@ -1,0 +1,84 @@
+/* ===============================
+ScrollBar
+=============================== */
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+/* App.css */
+body.dark {
+  background-color: #1f2123;
+  color: #ecf0f1;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark
+{
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg_nabvar
+{
+  background-color: white;
+}
+
+.dark .bg_nabvar
+{
+  background-color: #1f2123;
+}
+
+.toggle_mode_btn
+{
+  width: 78vw;
+}
+
+.card:hover
+{
+  box-shadow: rgba(36, 43, 50, 0.559) 0px 0px 20px 1px, rgba(255, 255, 255, 0.8) 0px 0px 20px 1px;
+}
+
+.dark .card
+{
+  background-color: #1f2123;
+  color: white;
+}
+
+.cards
+{
+  overflow: hidden;
+}
+
+.card_img
+{ 
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card_img:hover
+{
+  transform: scale(1.2);
+}
+
+footer
+{
+  background-color: #ececec;
+}
+
+.dark footer
+{
+  background-color: #2d2f32;
+}
+
+.dark h2
+{
+  color: white;
+}
+
+.dark Label
+{
+  color: white;
+}

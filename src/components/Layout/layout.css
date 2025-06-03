@@ -1,0 +1,136 @@
+.nav-link {
+    color: #1776e9;
+}
+
+.nav-link:hover {
+    color: #1056ab;
+}
+
+.nav-link.active {
+    color: #1374e9 !important;
+    font-weight: bold;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-label {
+    background-color: #111;
+    width: 50px;
+    height: 26px;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+.fa-sun {
+    color: #f39c12;
+}
+
+.checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked +.checkbox-label .ball {
+    transform: translateX(24px);
+}
+
+
+/* This is for Footer.................................. */
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 23vh;
+}
+
+.footer_part_one span
+{
+    margin-left: 2rem;
+}
+
+.footer_part_one ul
+{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_part_one ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer_links
+{
+    text-decoration: none;
+    color: #5e5e69;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer_links:hover
+{
+    color: #1374e9; 
+    transition: ease 1s;
+}
+
+/* This is for Footer part Two */
+.footer_part_two, .footer_part_third
+{
+    font-size: 20px;
+}
+
+.under_line
+{
+    background-color: #1374e9;
+    width: 2.5rem;
+    height: 5px;
+    border-radius: 10px;
+}
+
+/* Styling for Footer Icons */
+.social_icons i
+{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: 1px solid transparent;
+    -webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    -ms-transition: background-color .2s ease-in-out;
+    -o-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+.facebook_bg:hover{background:#4267B2 !important;color: #fff !important; border: 1px solid transparent !important;}
+.instagram-bg:hover{color: #FFFFFF !important;background: -webkit-gradient(linear, left top, left bottom, from(#aa2fb5), color-stop(93%, #f1762c))!important;background: -o-linear-gradient(top, #aa2fb5 0%, #f1762c 93%)!important;background: linear-gradient(to bottom, #aa2fb5 0%, #f1762c 93%)!important;-webkit-transition: all .5s ease;-o-transition: all .5s ease;transition: all .5s ease;}
+
+/* This is for Footer part Three */
+.download_app_links img
+{
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
